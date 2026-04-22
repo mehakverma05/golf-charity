@@ -1,1 +1,9 @@
-{   "buildCommand": "pip install -r requirements.txt; python manage.py migrate; python manage.py collectstatic --noinput",   "devCommand": "python manage.py runserver",   "framework": "other",   "installCommand": "pip install -r requirements.txt",   "env": {     "PYTHONUNBUFFERED": "1"   } }
+{
+  "buildCommand": "pip install -r requirements.txt && python manage.py collectstatic --noinput",
+  "devCommand": "python manage.py runserver",
+  "framework": "django",
+  "installCommand": "pip install -r requirements.txt",
+  "env": {
+    "PYTHONUNBUFFERED": "1"
+  }
+}
