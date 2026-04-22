@@ -3,8 +3,5 @@
   "devCommand": "python manage.py runserver",
   "env": {
     "PYTHONUNBUFFERED": "1"
-  },
-  "envPrefix": "",
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . && echo 'Skipped' || echo 'Deployed'",
-  "crons": {}
+  }
 }
